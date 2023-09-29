@@ -25,3 +25,8 @@ resultado = sonIguales? `El 1° número (${numero1}) y el 2° número (${numero2
 
 console.log("OPCION 2")
 console.log(resultado)
+
+//OPCION 3
+resultado = numero1 == numero2? "Los números son iguales" : `El número mayor es ${Math.max(numero1, numero2)}`
+console.log("OPCION 3")
+console.log(resultado)
