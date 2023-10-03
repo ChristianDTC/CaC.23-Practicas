@@ -10,9 +10,10 @@ if (numero % 2 == 0) {
 } else {
     parImpar = "IMPAR" 
 }
-console.log(`OPCION 1\nEl número es ${parImpar}`)
+alert(`OPCION 1: El número es ${parImpar}`)
+
 
 //OPCION 2 condición ternaria
 parImpar = numero % 2 == 0? "PAR" : "IMPAR"
 
-console.log(`OPCION 2\nEl número es ${parImpar}`)
+alert(`OPCION 2: El número es ${parImpar}`)

@@ -7,4 +7,4 @@ numero2 = parseInt(prompt("Ingrese el 2° número"))
 numero3 = parseInt(prompt("Ingrese el 3° número"))
 
 resultado = numero1 == numero2 == numero3? "Los números son iguales" : `El número mayor es ${Math.max(numero1, numero2,numero3)}`
-console.log(resultado)
+document.write(resultado)

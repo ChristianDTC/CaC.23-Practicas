@@ -5,4 +5,4 @@ let cantidadInscriptos, cantidadAsientos, alcanzaAsientos;
 cantidadInscriptos = parseInt(prompt("Ingrese la cantidad de inscriptos"))
 cantidadAsientos = parseInt(prompt("Ingrese la cantidad de asientos"))
 alcanzaAsientos = cantidadAsientos >= cantidadInscriptos? "Alcanzan los asientos" : `Faltan ${cantidadInscriptos-cantidadAsientos} asientos`
-console.log(alcanzaAsientos)
+document.write(alcanzaAsientos)
