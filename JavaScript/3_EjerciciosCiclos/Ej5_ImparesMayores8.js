@@ -3,7 +3,7 @@
 let edades = [];
 for (let i = 0; i < 5; i++) {
   do {
-    edades[i] = parseInt(prompt("Ingrese la " + [i + 1] + "° edad"));
+    edades[i] = parseInt(prompt(`Ingrese la ${i + 1}° edad`));
     if (edades[i] < 1) {
       alert("LA EDAD TIENE QUE SER MAYOR A 0");
     }
